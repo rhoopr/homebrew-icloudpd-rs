@@ -29,6 +29,6 @@ class IcloudpdRs < Formula
   end
 
   test do
-    assert_match "icloudpd-rs", shell_output("#{bin}/icloudpd-rs --version")
+    assert_match "Download iCloud photos", shell_output("#{bin}/icloudpd-rs --help")
   end
 end
